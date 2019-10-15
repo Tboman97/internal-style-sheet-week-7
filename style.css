@@ -1,15 +1,45 @@
+
 body {
 	background: red;
 	color: white;
-	font; arial;
+	font-family; arial;
 	
 }
 h1 {  
-   color: blue;  
+   color: blue;
+   font-family: wingdings;
 }
+h2 {
+	font-size: 24px;
+	font-family:times new roman
+}
+	
 img { 
     display: block;
     margin-left: auto; 
    margin-right: auto; 
 }
+.intro {
+  background-color: yellow;
+}
+figure {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 40px;
+  margin-right: 40px;
+  Padding:20px;
+  border: 50px solid white;
+  background:grey;
+}
+#top {
+    background-color: #ccc;
+    padding: 20px
+}
 
+.second {
+    color: red;
+    font-weight: bold;
+	background:grey;
+	margin:auto;
+}

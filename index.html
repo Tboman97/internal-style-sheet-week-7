@@ -5,38 +5,29 @@
     <title>HTML Page for Testing CSS</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<p>
-<em>Week 6 - Assignments</em>
-<br><strong>Read & Do, per the outline presented below:</strong></br>
-<br>Homework Assignment, Week 6 - Assessment activity - Create a Webpage and Style it</br>
-<br>Extra credit, sketch out the page before doing this work & hand in / scan - photo and include that scan / photo of sketch</br>
-<br>Create a professional webpage about yourself with sections, as defined here:</br>
-<br>html structure must include:</br>
-<br>doctype declaration, head, body</br>
-<br>in the body, there should be a couple of html5 semantic elements to mark out the segments of the page - there must be a header, content area, footer, for example (feel free to add others, as appropriate)</br>
-<br>in the header, include a heading element</br>
-<br>in the content area, there must be at least:</br>
-<br>one form of list in the main content area</br>
-<br>at least one image or video in the page, taking care not to violate copyright</br>
-<br>Create an external stylesheet referenced by the webpage with at least the following style refinements:</br>
-<br>a heading color</br>
-<br>a non-default text / font (size, weight, family) in some section</br>
-<br>Mount on a github repository as a page:</br>
-<br>name your webpage - index.html</br>
-<br>activate Github Pages in the settings on the repository</br>
+<p style="color:black;">
+ <br>add a background-color and base font-size and font-family to your web page via the style sheet</br>
+ <br>add at least 1 new style inline on an html element</br>
+ <br>give all of your headings a different font-family than the primary font-family used in the page</br>
+ <br>style at least one page element using an id</br>
+ <br>style at least one element using a class</br>
+ <br>have at least one element that uses both a class and an id style</br>
+ <br>put a legal, labelled for reuse image in an html block specifically designed to house that image (e.g., use a figure tag. Make sure you have alt text for image and a caption). Center your image in the page. Give the image some padding, and a solid border.add a background-color and base font-size and font-family to your web page via the style sheet</br>
 </p>
 <body>
 
 <h1>My name is Tucker and this is my webpage</h1>
-<p>This is my first time styling a website.</p>
+<p class="intro">This is my first time styling a website.</p>
 <h2>I have a large family</h2>
 <p>There are 6 kids in my family.</p>
-<img src="https://www.w3schools.com/css/paris.jpg"> </img>
+<figure>
+  <img src="https://cdn.pixabay.com/photo/2019/09/04/02/52/road-4450611_960_720.jpg" alt="winding road" width="304" height="228">
+</figure>
 
-
-
-
-
+<div id="top"> <h5> This is my class and Id section</h5>
+<p class="second"> This is where I used it<p>
+</div>
+</style>
 </body>
 
 </html>
